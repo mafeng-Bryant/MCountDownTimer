@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MCountDownTimer/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'MCountDownTimer' => ['MCountDownTimer/Assets/*.png']
   # }
