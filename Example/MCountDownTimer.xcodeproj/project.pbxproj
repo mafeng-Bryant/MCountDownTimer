@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		099453869D1B181B58269097 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		099453869D1B181B58269097 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		38B80B820D9F3DA1491A9B0D /* Pods_MCountDownTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCountDownTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53284118541F08243093EB03 /* Pods_MCountDownTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCountDownTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MCountDownTimer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCountDownTimer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +63,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		974E9C54E88D22F5B4410688 /* Pods-MCountDownTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCountDownTimer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCountDownTimer_Example/Pods-MCountDownTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE5AD030805B5B2742C1C60E /* Pods-MCountDownTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCountDownTimer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCountDownTimer_Tests/Pods-MCountDownTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE909023AD7FD6CB2FA7DBE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BE909023AD7FD6CB2FA7DBE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D838A5036B9F056AFF0927EB /* Pods-MCountDownTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCountDownTimer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCountDownTimer_Example/Pods-MCountDownTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DE0BEC8102287CBFFEA07877 /* Pods-MCountDownTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCountDownTimer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCountDownTimer_Tests/Pods-MCountDownTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F799489035341683E22C9658 /* MCountDownTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MCountDownTimer.podspec; path = ../MCountDownTimer.podspec; sourceTree = "<group>"; };
+		F799489035341683E22C9658 /* MCountDownTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MCountDownTimer.podspec; path = ../MCountDownTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

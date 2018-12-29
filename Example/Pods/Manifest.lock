@@ -1,0 +1,16 @@
+PODS:
+  - MCountDownTimer (0.1.0)
+
+DEPENDENCIES:
+  - MCountDownTimer (from `../`)
+
+EXTERNAL SOURCES:
+  MCountDownTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCountDownTimer: aad8c5b564dbe2bd18750243713bc016b1e6bfff
+
+PODFILE CHECKSUM: ee627f953f8bade8524b606af797ee2271c13652
+
+COCOAPODS: 1.5.3

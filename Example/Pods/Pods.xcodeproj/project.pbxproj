@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249ED32C7993802D68C9DC94AC576F1C /* MCountDownTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 584F06C01E9A30A90C761ED4D5A03344 /* MCountDownTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D44FA33C548AE445D160AEAD4695936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5F6F45F627B474592AC8A5CFA322133B /* Pods-MCountDownTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAE2510337D58E21B7715C4BC1A2D13 /* Pods-MCountDownTimer_Example-dummy.m */; };
+		62E50DDB494022A01C7404BC237CF2AA /* MCountDownTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12437331084C77EBC8245AA3BBE8C7EB /* MCountDownTimer-dummy.m */; };
+		A1504EF0F24629850D24F16733E96399 /* Pods-MCountDownTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7B6B1023C035C4721459EE856B8160 /* Pods-MCountDownTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA1EE2C83557424777FB83902D63D95F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CED4FA474F706FD2E6933045A7627767 /* Pods-MCountDownTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD53C8E9301030C19A65C4285E05BFCF /* Pods-MCountDownTimer_Tests-dummy.m */; };
+		D7333818859FBF08784FD5F5E28D3F40 /* Pods-MCountDownTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22521BF8F7ADF6F259D99A5C3D4C2484 /* Pods-MCountDownTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD585138010586D41A9D16509688291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3225E181EA44A4131C1C78F67D1013B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFACB447B4F31A694E7B61F4D7CA7CF;
+			remoteInfo = MCountDownTimer;
+		};
+		6270E5E6F9F47E8598A5C04AB55AF638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF83DD231FF683918541B89D5C8F5AD;
+			remoteInfo = "Pods-MCountDownTimer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12437331084C77EBC8245AA3BBE8C7EB /* MCountDownTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCountDownTimer-dummy.m"; sourceTree = "<group>"; };
+		22521BF8F7ADF6F259D99A5C3D4C2484 /* Pods-MCountDownTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCountDownTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		24DB6E8EFA3F9749E5ADD70F821C5730 /* Pods-MCountDownTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCountDownTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2F38A37EF9C5AF15182DC7F090866234 /* Pods-MCountDownTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCountDownTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30A19159B61374780E6E2F02BC3DD561 /* Pods-MCountDownTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCountDownTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		584F06C01E9A30A90C761ED4D5A03344 /* MCountDownTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCountDownTimer-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D25AC2875C65B41044BAA4E3E1DD168 /* Pods-MCountDownTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MCountDownTimer_Example.modulemap"; sourceTree = "<group>"; };
+		64077672049780DD173B58240B1F9D84 /* Pods-MCountDownTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCountDownTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6AB5265918EB3B9C0228BC512FA08E7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B08F1610628EA4499A49ADFA5F9BB5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CAE2510337D58E21B7715C4BC1A2D13 /* Pods-MCountDownTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCountDownTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		6FC69C0DFEEC725582065CE93FAB7363 /* Pods-MCountDownTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCountDownTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		913ED6D5848B9A087887CA6048D38911 /* Pods_MCountDownTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCountDownTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D261DBC15272D5591CA44399EA70231 /* Pods-MCountDownTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCountDownTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBEBD2D9469FAF5654CDA4E39C9CEA2 /* Pods-MCountDownTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MCountDownTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		A5C133CD9E98D13154C20DF9745AEC16 /* MCountDownTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCountDownTimer-prefix.pch"; sourceTree = "<group>"; };
+		AB7B6B1023C035C4721459EE856B8160 /* Pods-MCountDownTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCountDownTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD53C8E9301030C19A65C4285E05BFCF /* Pods-MCountDownTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCountDownTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		B1DAC2CBEEBD5AFD1AE8E6DDA495A0E5 /* Pods-MCountDownTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCountDownTimer_Tests-resources.sh"; sourceTree = "<group>"; };
+		B7F1BF836410E415B94CF121056AB30E /* Pods-MCountDownTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCountDownTimer_Example-resources.sh"; sourceTree = "<group>"; };
+		C78B8C55C9625B57BEFAEA312A2289D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B18EC667D079D336939B3DC641783F /* Pods-MCountDownTimer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCountDownTimer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C9DD438D4FE97586BEA2D7262B750980 /* Pods-MCountDownTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCountDownTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA6777729E724F004CB4BC597CAED6D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01583858AFC1FFD9E6A4C1778369ABD /* MCountDownTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCountDownTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3450164203EBF42868C270E9EEA67DC /* Pods_MCountDownTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCountDownTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E91BB3E103C370BCE8936ABC491C5D /* Pods-MCountDownTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCountDownTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF8035AC2B699F31BE6F14EC17DE28F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F2BA9121A8335F0205E96BDC4CF18581 /* MCountDownTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCountDownTimer.xcconfig; sourceTree = "<group>"; };
+		FD726EAC7115DA2E21A1BEA1457115C2 /* MCountDownTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MCountDownTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE4ECBBE1D4ECB38237F3DC82C04B8DD /* MCountDownTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MCountDownTimer.modulemap; sourceTree = "<group>"; };
+		FF98EB3DC6631280FC30CC15840ECF84 /* Pods-MCountDownTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCountDownTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1530D7D6EEF10E87AE6DAD1DC76FC66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD585138010586D41A9D16509688291 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E467E899D8868087EF2D4F5A8C587BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D44FA33C548AE445D160AEAD4695936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFFA1A28729821B0B37E270FD17E88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1EE2C83557424777FB83902D63D95F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0751AFEC004B7D49E0A9A41F2487E4F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF8035AC2B699F31BE6F14EC17DE28F9 /* LICENSE */,
+				FD726EAC7115DA2E21A1BEA1457115C2 /* MCountDownTimer.podspec */,
+				6B08F1610628EA4499A49ADFA5F9BB5C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6003510A8AA7F700E79A2219D805BAD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A76C65BC3A6732B96BBDDB8B0CACFA0C /* Pods-MCountDownTimer_Example */,
+				C87FA732893E480C946F64350FA8405C /* Pods-MCountDownTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AC5EE2E50ACE983417EA7E9B18124BAB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				808441628F0F3E09E71E59D1E6FF0F1C /* Products */,
+				6003510A8AA7F700E79A2219D805BAD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		808441628F0F3E09E71E59D1E6FF0F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E01583858AFC1FFD9E6A4C1778369ABD /* MCountDownTimer.framework */,
+				913ED6D5848B9A087887CA6048D38911 /* Pods_MCountDownTimer_Example.framework */,
+				E3450164203EBF42868C270E9EEA67DC /* Pods_MCountDownTimer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A849DAA105AE88BB5439363C8FE527E /* MCountDownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0751AFEC004B7D49E0A9A41F2487E4F5 /* Pod */,
+				D61319F24C3170E1A0858F15A78F46DD /* Support Files */,
+			);
+			name = MCountDownTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A76C65BC3A6732B96BBDDB8B0CACFA0C /* Pods-MCountDownTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5265918EB3B9C0228BC512FA08E7F /* Info.plist */,
+				5D25AC2875C65B41044BAA4E3E1DD168 /* Pods-MCountDownTimer_Example.modulemap */,
+				C9DD438D4FE97586BEA2D7262B750980 /* Pods-MCountDownTimer_Example-acknowledgements.markdown */,
+				E9E91BB3E103C370BCE8936ABC491C5D /* Pods-MCountDownTimer_Example-acknowledgements.plist */,
+				6CAE2510337D58E21B7715C4BC1A2D13 /* Pods-MCountDownTimer_Example-dummy.m */,
+				24DB6E8EFA3F9749E5ADD70F821C5730 /* Pods-MCountDownTimer_Example-frameworks.sh */,
+				B7F1BF836410E415B94CF121056AB30E /* Pods-MCountDownTimer_Example-resources.sh */,
+				22521BF8F7ADF6F259D99A5C3D4C2484 /* Pods-MCountDownTimer_Example-umbrella.h */,
+				30A19159B61374780E6E2F02BC3DD561 /* Pods-MCountDownTimer_Example.debug.xcconfig */,
+				6FC69C0DFEEC725582065CE93FAB7363 /* Pods-MCountDownTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-MCountDownTimer_Example";
+			path = "Target Support Files/Pods-MCountDownTimer_Example";
+			sourceTree = "<group>";
+		};
+		AC5EE2E50ACE983417EA7E9B18124BAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A849DAA105AE88BB5439363C8FE527E /* MCountDownTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87FA732893E480C946F64350FA8405C /* Pods-MCountDownTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6777729E724F004CB4BC597CAED6D8 /* Info.plist */,
+				9FBEBD2D9469FAF5654CDA4E39C9CEA2 /* Pods-MCountDownTimer_Tests.modulemap */,
+				FF98EB3DC6631280FC30CC15840ECF84 /* Pods-MCountDownTimer_Tests-acknowledgements.markdown */,
+				2F38A37EF9C5AF15182DC7F090866234 /* Pods-MCountDownTimer_Tests-acknowledgements.plist */,
+				AD53C8E9301030C19A65C4285E05BFCF /* Pods-MCountDownTimer_Tests-dummy.m */,
+				C9B18EC667D079D336939B3DC641783F /* Pods-MCountDownTimer_Tests-frameworks.sh */,
+				B1DAC2CBEEBD5AFD1AE8E6DDA495A0E5 /* Pods-MCountDownTimer_Tests-resources.sh */,
+				AB7B6B1023C035C4721459EE856B8160 /* Pods-MCountDownTimer_Tests-umbrella.h */,
+				9D261DBC15272D5591CA44399EA70231 /* Pods-MCountDownTimer_Tests.debug.xcconfig */,
+				64077672049780DD173B58240B1F9D84 /* Pods-MCountDownTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-MCountDownTimer_Tests";
+			path = "Target Support Files/Pods-MCountDownTimer_Tests";
+			sourceTree = "<group>";
+		};
+		D61319F24C3170E1A0858F15A78F46DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78B8C55C9625B57BEFAEA312A2289D3 /* Info.plist */,
+				FE4ECBBE1D4ECB38237F3DC82C04B8DD /* MCountDownTimer.modulemap */,
+				F2BA9121A8335F0205E96BDC4CF18581 /* MCountDownTimer.xcconfig */,
+				12437331084C77EBC8245AA3BBE8C7EB /* MCountDownTimer-dummy.m */,
+				A5C133CD9E98D13154C20DF9745AEC16 /* MCountDownTimer-prefix.pch */,
+				584F06C01E9A30A90C761ED4D5A03344 /* MCountDownTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MCountDownTimer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CCED876CD39D9EE1213DD4BF23A8516 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249ED32C7993802D68C9DC94AC576F1C /* MCountDownTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B0FF2692E904F5744298508A45E9EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1504EF0F24629850D24F16733E96399 /* Pods-MCountDownTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45D6161B4B0470335E03889B899E4F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7333818859FBF08784FD5F5E28D3F40 /* Pods-MCountDownTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B7BAF602EAAA250CE7CC2CA8EEF495C /* Pods-MCountDownTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0216F0CB1948FD1E78011D1A85B61AA /* Build configuration list for PBXNativeTarget "Pods-MCountDownTimer_Tests" */;
+			buildPhases = (
+				D17C99EACBCDD8E7C4C1A25F5E5A1B5E /* Sources */,
+				4E467E899D8868087EF2D4F5A8C587BD /* Frameworks */,
+				37B0FF2692E904F5744298508A45E9EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D61163CAF513BCA7B4892E9D211FE7D /* PBXTargetDependency */,
+			);
+			name = "Pods-MCountDownTimer_Tests";
+			productName = "Pods-MCountDownTimer_Tests";
+			productReference = E3450164203EBF42868C270E9EEA67DC /* Pods_MCountDownTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BFACB447B4F31A694E7B61F4D7CA7CF /* MCountDownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0FBA553BE76A9418F888FD6C8EAA98 /* Build configuration list for PBXNativeTarget "MCountDownTimer" */;
+			buildPhases = (
+				35E0396A98AD2AAFF25C6EB841FF25E7 /* Sources */,
+				BFFFA1A28729821B0B37E270FD17E88C /* Frameworks */,
+				1CCED876CD39D9EE1213DD4BF23A8516 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCountDownTimer;
+			productName = MCountDownTimer;
+			productReference = E01583858AFC1FFD9E6A4C1778369ABD /* MCountDownTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFF83DD231FF683918541B89D5C8F5AD /* Pods-MCountDownTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50227CBAEAACBF36E0583C4AD1713FB0 /* Build configuration list for PBXNativeTarget "Pods-MCountDownTimer_Example" */;
+			buildPhases = (
+				7DE83465B618E26B86E93BFC5BA14C77 /* Sources */,
+				1530D7D6EEF10E87AE6DAD1DC76FC66E /* Frameworks */,
+				C45D6161B4B0470335E03889B899E4F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF87BAD302337040CEC5693F5FCF685E /* PBXTargetDependency */,
+			);
+			name = "Pods-MCountDownTimer_Example";
+			productName = "Pods-MCountDownTimer_Example";
+			productReference = 913ED6D5848B9A087887CA6048D38911 /* Pods_MCountDownTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 808441628F0F3E09E71E59D1E6FF0F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFACB447B4F31A694E7B61F4D7CA7CF /* MCountDownTimer */,
+				FFF83DD231FF683918541B89D5C8F5AD /* Pods-MCountDownTimer_Example */,
+				2B7BAF602EAAA250CE7CC2CA8EEF495C /* Pods-MCountDownTimer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E0396A98AD2AAFF25C6EB841FF25E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E50DDB494022A01C7404BC237CF2AA /* MCountDownTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE83465B618E26B86E93BFC5BA14C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6F45F627B474592AC8A5CFA322133B /* Pods-MCountDownTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17C99EACBCDD8E7C4C1A25F5E5A1B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4FA474F706FD2E6933045A7627767 /* Pods-MCountDownTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D61163CAF513BCA7B4892E9D211FE7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MCountDownTimer_Example";
+			target = FFF83DD231FF683918541B89D5C8F5AD /* Pods-MCountDownTimer_Example */;
+			targetProxy = 6270E5E6F9F47E8598A5C04AB55AF638 /* PBXContainerItemProxy */;
+		};
+		EF87BAD302337040CEC5693F5FCF685E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCountDownTimer;
+			target = 9BFACB447B4F31A694E7B61F4D7CA7CF /* MCountDownTimer */;
+			targetProxy = 3225E181EA44A4131C1C78F67D1013B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		382A4AFEE6DBBA627F1AA422E045DF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC69C0DFEEC725582065CE93FAB7363 /* Pods-MCountDownTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCountDownTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCountDownTimer_Example/Pods-MCountDownTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		729B6179AA1D8F0E4BA1FF99FCEC04DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BA9121A8335F0205E96BDC4CF18581 /* MCountDownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCountDownTimer/MCountDownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCountDownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCountDownTimer/MCountDownTimer.modulemap";
+				PRODUCT_MODULE_NAME = MCountDownTimer;
+				PRODUCT_NAME = MCountDownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		826939CDF3C8129F193493D68087FA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A19159B61374780E6E2F02BC3DD561 /* Pods-MCountDownTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCountDownTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCountDownTimer_Example/Pods-MCountDownTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A33C8BEBE9A403B503E511EA3C563AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64077672049780DD173B58240B1F9D84 /* Pods-MCountDownTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCountDownTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCountDownTimer_Tests/Pods-MCountDownTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAFD06236446DB9FBCB2C0168B515E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D261DBC15272D5591CA44399EA70231 /* Pods-MCountDownTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCountDownTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCountDownTimer_Tests/Pods-MCountDownTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCFC1EC98ABF0953414E93D63252D5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BA9121A8335F0205E96BDC4CF18581 /* MCountDownTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCountDownTimer/MCountDownTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCountDownTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCountDownTimer/MCountDownTimer.modulemap";
+				PRODUCT_MODULE_NAME = MCountDownTimer;
+				PRODUCT_NAME = MCountDownTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50227CBAEAACBF36E0583C4AD1713FB0 /* Build configuration list for PBXNativeTarget "Pods-MCountDownTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826939CDF3C8129F193493D68087FA9B /* Debug */,
+				382A4AFEE6DBBA627F1AA422E045DF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0216F0CB1948FD1E78011D1A85B61AA /* Build configuration list for PBXNativeTarget "Pods-MCountDownTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFD06236446DB9FBCB2C0168B515E3C /* Debug */,
+				A33C8BEBE9A403B503E511EA3C563AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0FBA553BE76A9418F888FD6C8EAA98 /* Build configuration list for PBXNativeTarget "MCountDownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFC1EC98ABF0953414E93D63252D5F5 /* Debug */,
+				729B6179AA1D8F0E4BA1FF99FCEC04DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
